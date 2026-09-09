@@ -1,0 +1,19 @@
+# Never publish credentials or local runtime secrets
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.dpapi
+rclone.conf
+*token*
+*secret*
+credentials*.json
+client_secret*.json
+
+# Local/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
